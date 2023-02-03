@@ -1,5 +1,5 @@
 public enum CommandWord {
-    GO("go"), QUIT("quit"), HELP("help"), UNKNOWN("?"), LOOK("look"), GRAB("grab"), DROP("grab"), PICK("pick");
+    GO("go"), QUIT("quit"), HELP("help"), UNKNOWN("?"), PUSH("push"), GRAB("grab"), DROP("grab"), PICK("pick"), DANCE("dance");
     private String commandString;
     CommandWord(String commandString){
         this.commandString = commandString;
